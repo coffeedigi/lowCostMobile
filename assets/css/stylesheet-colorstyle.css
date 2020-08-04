@@ -1,0 +1,123 @@
+/*** Color Scheme ***/
+/* Text Color 009f51 */
+a, a:hover {
+	color: #7e125e;
+}
+.text-color-1,
+.header-nav-cta .cta-phone, 
+.btnBrd,
+.btnBrd:active, .btnBrd:focus, .btnBrd:hover,
+.footerCol .footer-headline, .footerCol .footer-headline a,
+.zipField .form-control:focus~.form-control-label,
+.secondary-nav .secondary-nav-item.active,
+.btn-link, .btn-link:focus, .btn-link:hover,
+.tabStyle-cst .nav-link.active,
+.dropdown-select .dropdown-menu .item:hover,
+.socialList .scl-link:hover {
+	color:#7e125e !important;
+}
+
+.md-Label-wrap .form-control:focus+.primary-label, .md-Label-wrap .form-control:focus+.primary-label.lbl-Tp, 
+.md-Label-wrap .dropdown-select.show .dropdown-select-header .dropdown-label,
+.dropdown-select.show .dropdown-label-md, 
+.selectDropWrap.label-floated .cstSelectDrop:focus + .selectLabel {
+	color:#7e125e !important;
+}
+.btnBrd,
+.btnBrd:active, .btnBrd:focus, .btnBrd:hover,
+.tabStyle-cst .nav-link.active {
+    border-color: #7e125e !important;
+}
+
+@media (max-width: 991px){
+.header-nav>.nav-item.active>.nav-link {
+	color: #7e125e !important;
+}
+}
+/* End Text Color */
+/* Fill Color Fill 25c778 */
+.bg-color-1 {
+	background-color:#750840 !important;
+}
+.zipField .form-control-icon svg path,
+.cstSelectDrop:focus + .selectLabel + .arrowIcon polygon, .cstSelectDrop.completed + .selectLabel + .arrowIcon polygon,
+.dropdown-select.dropdown.show .dropdown-select-header svg polygon, .dropdown-select.dropdown .dropdown-select-header.completed svg polygon {
+	fill:#750840 !important;
+}
+.header,
+.spcBody,
+.btnBg-1,
+.btnBg-1:hover,
+.navLine_Wrap .line,
+.bxRadio .input-radio:checked~label .custom-control-indicator,
+.header-burger:after, .header-burger:before, .header-burger .toggler-icon,
+.custom-control-input:checked~.custom-control-label-wrap,
+.secondary-nav .secondary-nav-item.active .nav-dot,
+.progeess-stl .progress-bar {
+	background-color: #750840 !important;
+}
+.counter-wrap .btn-counter {
+	background-color: #750840;
+}
+.zipField .form-control.fldBrn-1,
+.zipField .form-control:focus,
+.bxRadio .input-radio:checked~label .custom-control-indicator,
+.form-control-cst:focus,
+.dropdown-select.show .dropdown-select-header,
+.dropdown-select-wrap .dropdown-menu {
+    border-color: #750840 !important;
+}
+.custom-control.custom-radio .custom-control-input:checked~.custom-control-label-wrap .custom-control-indicator {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='2' fill='%23750840'/%3E%3C/svg%3E") !important;
+}
+.custom-control.custom-checkbox .custom-control-input:checked~.custom-control-label-wrap .custom-control-indicator {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17.98 13'%3E%3Cpath fill='%23750840' d='M16.84,0A1.11,1.11,0,0,0,16,.35L6.59,10.17,2,5.35A1.12,1.12,0,0,0,1.14,5,1.16,1.16,0,0,0,0,6.17,1.17,1.17,0,0,0,.33,7l5.44,5.67a1.13,1.13,0,0,0,.82.35,1.12,1.12,0,0,0,.81-.35L17.65,2h0A1.17,1.17,0,0,0,18,1.17,1.16,1.16,0,0,0,16.84,0Z'/%3E%3C/svg%3E") !important;
+    border: none;
+}
+.buttonCompress {
+  --background: #750840;
+  --background-hover: #750840;
+  --background-back: #474644;
+}
+@-moz-keyframes splash {
+  40% {
+    background: #750840;
+    box-shadow: 0 -18px 0 -8px #866efb, 16px -8px 0 -8px #750840, 16px 8px 0 -8px #750840, 0 18px 0 -8px #750840, -16px 8px 0 -8px #750840, -16px -8px 0 -8px #750840;
+  }
+  100% {
+    background: #750840;
+    box-shadow: 0 -36px 0 -10px transparent, 32px -16px 0 -10px transparent, 32px 16px 0 -10px transparent, 0 36px 0 -10px transparent, -32px 16px 0 -10px transparent, -32px -16px 0 -10px transparent;
+  }
+}
+@-webkit-keyframes splash {
+  40% {
+    background: #750840;
+    box-shadow: 0 -18px 0 -8px #750840, 16px -8px 0 -8px #750840, 16px 8px 0 -8px #750840, 0 18px 0 -8px #750840, -16px 8px 0 -8px #750840, -16px -8px 0 -8px #750840;
+  }
+  100% {
+    background: #750840;
+    box-shadow: 0 -36px 0 -10px transparent, 32px -16px 0 -10px transparent, 32px 16px 0 -10px transparent, 0 36px 0 -10px transparent, -32px 16px 0 -10px transparent, -32px -16px 0 -10px transparent;
+  }
+}
+@-o-keyframes splash {
+  40% {
+    background: #750840;
+    box-shadow: 0 -18px 0 -8px #750840, 16px -8px 0 -8px #750840, 16px 8px 0 -8px #750840, 0 18px 0 -8px #750840, -16px 8px 0 -8px #750840, -16px -8px 0 -8px #750840;
+  }
+  100% {
+    background: #750840;
+    box-shadow: 0 -36px 0 -10px transparent, 32px -16px 0 -10px transparent, 32px 16px 0 -10px transparent, 0 36px 0 -10px transparent, -32px 16px 0 -10px transparent, -32px -16px 0 -10px transparent;
+  }
+}
+@keyframes splash {
+  40% {
+    background: #750840;
+    box-shadow: 0 -18px 0 -8px #750840, 16px -8px 0 -8px #750840, 16px 8px 0 -8px #750840, 0 18px 0 -8px #750840, -16px 8px 0 -8px #750840, -16px -8px 0 -8px #750840;
+  }
+  100% {
+    background: #750840;
+    box-shadow: 0 -36px 0 -10px transparent, 32px -16px 0 -10px transparent, 32px 16px 0 -10px transparent, 0 36px 0 -10px transparent, -32px 16px 0 -10px transparent, -32px -16px 0 -10px transparent;
+  }
+}
+/* End Fill Color */
+/*** End Color Scheme ***/
